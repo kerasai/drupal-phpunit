@@ -10,7 +10,7 @@ namespace Kerasai\Drupal\Units\Service\Form;
 /**
  * Service wrapper for Drupal form handling.
  */
-class DrupalForm implements FormInterface {
+class DrupalFormService implements FormServiceInterface {
 
   protected $errors = array();
 

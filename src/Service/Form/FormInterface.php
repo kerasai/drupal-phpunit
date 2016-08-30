@@ -7,7 +7,7 @@
 
 namespace Kerasai\Drupal\Units\Service\Form;
 
-interface FormInterface {
+interface FormServiceInterface {
 
   /**
    * Determines if the form has errors set.
