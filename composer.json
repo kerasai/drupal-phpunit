@@ -6,5 +6,10 @@
       "name": "Will Long",
       "email": "will@kerasai.com"
     }
-  ]
+  ],
+  "autoload": {
+    "psr-4": {
+      "kerasai\\drupal-units\\": "src/"
+    }
+  }
 }
