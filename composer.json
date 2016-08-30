@@ -9,7 +9,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "kerasai\\drupal-units\\": "src/"
+      "Kerasai\\Drupal\\Units\\": "src/"
     }
   }
 }
