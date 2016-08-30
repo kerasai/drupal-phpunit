@@ -1,0 +1,10 @@
+{
+  "name": "kerasai/drupal-units",
+  "description": "Object oriented wrappers for Drupal functionality to aid in unit testing.",
+  "authors": [
+    {
+      "name": "Will Long",
+      "email": "will@kerasai.com"
+    }
+  ]
+}
