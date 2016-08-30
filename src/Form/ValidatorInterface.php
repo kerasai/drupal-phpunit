@@ -6,9 +6,10 @@
  */
 namespace Kerasai\Drupal\Units\Form;
 use Kerasai\Drupal\Units\Service\Form\FormServiceInterface;
+use Kerasai\Drupal\Units\Service\Translation\TranslationServiceInterface;
 
 /**
- * Interface ValidatorInterface
+ * Interface ValidatorInterface.
  */
 interface ValidatorInterface {
 
@@ -16,8 +17,9 @@ interface ValidatorInterface {
    * ValidatorInterface constructor.
    *
    * @param FormServiceInterface $form_service
+   * @param TranslationServiceInterface $translation_service
    */
-  public function __construct(FormServiceInterface $form_service);
+  public function __construct($form_service = NULL, $translation_service = NULL);
 
   /**
    * Validate the form.
