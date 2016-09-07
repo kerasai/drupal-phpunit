@@ -24,8 +24,9 @@ interface ValidatorInterface {
   /**
    * Validate the form.
    *
+   * @param array $form
    * @param array $form_state
    */
-  public function validate(&$form_state);
+  public function validate(&$form, &$form_state);
 
 }
