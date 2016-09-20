@@ -18,4 +18,16 @@ class DrupalUserService implements UserServiceInterface {
     return user_access($permission, $account);
   }
 
+  /**
+   * {@inheritdoc}
+   */
+  public function currentUser() {
+    global $user;
+
+    if (user_is_logged_in()) {
+      return user_load($user->uid);
+    }
+
+    return drupal_anonymous_user();
+  }
 }

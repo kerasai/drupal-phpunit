@@ -24,4 +24,11 @@ interface UserServiceInterface {
    */
   public function access($permission, $account);
 
+  /**
+   * Provides the current Drupal user.
+   *
+   * @return \stdClass
+   */
+  public function currentUser();
+
 }
